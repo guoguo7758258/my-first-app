@@ -1,0 +1,134 @@
+.banner{
+    height: 139px;
+    background: yellow;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .main-title{
+    height: 50px;
+    position: relative;
+    background:#ffffff;
+  }
+  .title-title{
+    position: absolute;
+    left: 95px;
+    padding-left: 15px;
+    height: 100%;
+  }
+  .title-title p{
+    height: 30px;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+  }
+  .title-title span{
+    font-size: 12px;
+    color: #b1b1b1;
+  }
+  .title-img{
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    width: 80px;
+  }
+  .guanzhu{
+    float: right;
+    margin-top: 15px;
+    height: 25px;
+    color: black;
+    width: 55px;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-right: 20px;
+    position: relative;
+    input{
+      display: none;
+    }
+    .guan-zhu{
+      display: block;
+      position: absolute;
+      width: 55px;
+      height: 25px;
+    }
+  }
+  .guan-zhu::after{
+    content: "关注";
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    background: #fdd102;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 20px;
+  }
+  .guan-zhu::before{
+    content: "已关注";
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    background: #d9d9d9;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .guanzhu input:checked~span::after{
+    display: none;
+  }
+  .guanzhu input:checked~span::before{
+    display: block;
+  }
+  a{
+    text-decoration: none;
+  }
+  .main-list{
+    display: flex;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e8e8e8;
+    justify-content: space-around;
+  }
+  .main-products-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .mint-tab-item{
+    display: inline-block;
+    width: 50%;
+  }
+  .mint-tab-item-icon{
+    display: none;
+  }
+  .mint-navbar{
+    width: auto;
+    margin-bottom: 2px;
+  }
+  .mint-navbar .mint-tab-item.is-selected{
+    border-bottom: 3px solid #fdd102;
+  }
+  .mint-tab-container{
+    background: #ffffff;
+  }
+  .a-products{
+    display: inline-block;
+    width: 48.7%;
+    height: 277px;
+    margin-bottom: 10px;
+    border:1px solid rgba(240, 237, 237, 0.7);
+    overflow: hidden;
+  }
+  .wrap-products{
+    height: 100%;
+    width: 100% !important;
+    overflow: auto;
+    border: none;
+    border-radius: none;
+    margin-bottom: none;
+    background: #ffffff;
+  }

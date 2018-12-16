@@ -1,0 +1,105 @@
+.main{
+    i{
+        font-family: 'iconfont';
+    }
+}
+.top{
+    width: 100%;
+    height: 150px;
+    background:#424242;
+    overflow: hidden;
+    .user-img{
+        height: 75px;
+        width: 75px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: green;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .user-name{
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        font-size: 14px;
+    }
+}
+.center{
+    .my-dingdan{
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid #eeeeee;
+        text-align: left;
+        line-height: 30px;
+        font-size: 16px;
+        padding-left: 5px;
+        background: #ffffff;
+        box-sizing: border-box;
+        margin-top: 10px;
+        span{
+            float: right;
+            font-size: 14px;
+            color: #6b6b6b;
+        }
+    }
+    .products-service{
+        background: #ffffff;
+        width: 100%;
+        box-sizing: border-box;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        color: #141414;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+        margin-bottom: 10px;
+        .service-wrap{
+            font-size: 13px;
+            i{
+              font-size: 25px !important;
+            }
+            span{
+              line-height: 20px;
+              display: block;
+            }
+          }
+    }
+    .other-service{
+        width: 100%;
+        height: auto;
+        background: #ffffff;
+        box-sizing: border-box;
+        padding: 0px 5px;
+        .list-wrap{
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            i{
+                font-size: 20px !important;
+            }
+            span{
+                font-size: 15px;
+            }
+            .right{
+                float: right;
+                color: #777777;
+                font-size: 12px;
+            }
+        }
+    }
+    .logout{
+        width: 80%;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 13px;
+        color: #ffffff;
+        margin: 10px auto;
+        border-radius: 5px;
+        border: 1px solid sandybrown;
+        background: #a20000;
+    }
+}

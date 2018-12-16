@@ -1,0 +1,215 @@
+.header{
+  height: 52px;
+  .serch{
+    width: 100%;
+    height: 100%;
+    background-color: #fdde4a;
+    overflow: hidden;
+    p{
+      width: 80%;
+      height: 32px;
+      line-height: 32px;
+      font-size: 13px;
+      color: #877a73;
+      margin: 10px auto;
+      background: #ffffff;
+      text-align: left;
+      border-radius: 5px;
+      background: #ffffff url('//img6.lukou.com/js/img/search.7601129.png') no-repeat;
+      padding-left: 40px;
+      background-size: 15px 15px;
+      background-position: 10px center;
+    }
+  }
+}
+.banner{
+    height: 200px;
+  }
+  .miaosha{
+    height: 150px;
+    background: #ffffff;
+    .miaosha-wrap{
+      float: left;
+      margin-top: 10px;
+    }
+    .miaosha-title{
+      font-size: 14px;
+      color: rgb(67, 36, 12);
+      line-height: 15px;
+      margin-top: 7.5px;
+      margin-left: 7.5px;
+    }
+    .miaosha-text{
+      font-size: 11.25px;
+      color: #fda900;
+      margin-top: 7.5px;
+      margin-left: 7.5px;
+    }
+    .img{
+      width: 67.5px;
+      height: 67.5px;
+      margin-left: 55px;
+      margin-top: 25px;
+    }
+    .right-img{
+      float: right;
+      margin-left: 0px;
+      margin-right: 10px;
+      margin-top: 0px;
+    }
+    .left{
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding-right: 70px;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgb(217, 217, 217);
+      border-right: 1px solid rgb(217, 217, 217);
+    }
+    .right{
+      width: 50%;
+      height: 100%;
+      float: left;
+      .right-top{
+        height: 50%;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(217, 217, 217);
+      }
+      .right-bottom{
+        height: 50%;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(217, 217, 217);
+      }
+    }
+  }
+  .j-products{
+    height: auto;
+    background: white;
+  }
+  .j-title{
+    width: 100%;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .j-mintitle{
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    color: #929292;
+  }
+  .j-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .j-list-wrap{
+    width: 32.5%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .products{
+    width: 100% !important;
+  }
+  .hot-list{
+    margin:10px 0px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .hot-wrap{
+    height: 100px;
+    display: flex;
+    overflow: auto;
+    align-items: middle;
+  }
+  .list-wrap{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #585858;
+  }
+  .list-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: yellow;
+    line-height: 55px;
+    overflow: hidden;
+  }
+  .list-img img{
+    width: 100%;
+    height: 100%;
+  }
+  .title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    overflow: hidden;
+  }
+  .list-more{
+    width: 55px;
+    height: 55px;
+    background: #d1d1d1;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .list-more span{
+    display: block;
+    height: 29.5px;
+    width: 50px;
+    margin-left: 3px;
+    line-height: 16px;
+  }
+  .list-more span:first-child{
+    line-height: 39.5px;
+    border-bottom: 1px solid #949494;
+  }
+  .products .img{
+    height:120px;
+  }
+  .j-list-suixin{
+    display: block;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .j-list-suixin .wrap-products{
+    width: 100%;
+    height: 200px;
+  }
+  .active{
+    margin-bottom: 0px;
+  }
+  .active-active{
+    height: 200px;
+    background: red;
+  }
+  // .main-products-wrap a:nth-of-type(2){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(3){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(8){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(11){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(15){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(25){
+  //   display: none;
+  // }
+  // .main-products-wrap a:nth-of-type(26){
+  //   display: none;
+  // }
+
+  

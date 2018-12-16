@@ -1,0 +1,96 @@
+.serch{
+    position: fixed;
+    width: 100%;
+  }
+  .mint-search{
+    height: auto;
+    width: 100%;
+  }
+  .mint-searchbar{
+    background-color: #f4f4f4;
+  }
+  .mint-searchbar-cancel{
+    color: #2d2d2d;
+    font-size: 14px;
+  }
+  .nav{
+    height: 100%;
+  }
+  .sidebar{
+    position: fixed;
+    top: 92px;
+    height: 78%;
+    border: 1px solid #aaaaaa;
+    border-right: none;
+    overflow:scroll;
+    display: inline-block;
+    width: 27%;
+  }
+  .mint-tab-item-label{
+    text-align: center;
+  }
+  .mint-navbar .mint-tab-item.is-selected{
+    border-bottom: 3px solid #fdd102;
+    color: #fdd102;
+    background: #ffffff;
+  }
+  .right-bar{
+    position: fixed;
+    left: 101px;
+    top: 93px;
+    width: 73%;
+    height: 78%;
+    overflow-x: hidden;
+    background: #ffffff;
+  }
+  .mint-navbar{
+    display: block;
+    width: 100px;
+    text-align: center;
+    background: rgba(229, 229, 229, 0.2)
+  }
+  .mint-tab-item{
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .list{
+    width: 30.5%; 
+    height: 125px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    color: #2d2d2d;
+  }
+  .mint-tab-container{
+    overflow: none;
+    position: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .right-big-wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mint-tab-container-item{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .list-img{
+    display: block;
+    height: 65%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  .list-img img{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+  }
+  .list-title{
+    line-height: 25px;
+    font-size: 12px;
+  }

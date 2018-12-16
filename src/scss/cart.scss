@@ -1,0 +1,277 @@
+.wrap{
+    background: #e2e2e2;
+    position: relative;
+}
+.cart-list{
+    height: auto;
+}
+.product-wrap{
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    margin-bottom:18px;
+    .danxuan{
+        margin-top: 12px;
+    }
+} 
+.wrap-products{
+    height: 210px;
+}
+.product-wrap label{
+    line-height: 50px;
+}
+.checked{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border: 1px solid #dfdfdf;
+    background: white;
+    border-radius: 50%;
+}
+.product-img{
+    width: 25%;
+    height: 90px;
+    background: green;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.product-min-wrap{
+    width: 60%;
+    float: left;
+    height: 100%;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.product-title{
+    width: 100%;
+    font-size: 13px;
+    height: 43px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.product-kuanshi{
+    font-size: 10px;
+    line-height: 15px;
+}
+.product-bottom{
+   line-height: 50px; 
+}
+.product-bottom .price{
+    font-size: 15px;
+    color: #be0e0e;
+}
+.product-bottom .price b{
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-tejia{
+    display: inline-block;
+    width: 30px;
+    height: 12px;
+    font-size: 8px;
+    color: white;
+    background: #be0e0e;
+    line-height: 12px;
+    text-align: center;
+}
+.product-bottom p{
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #7c7c7c;
+}
+.num{
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    color: #1d1d1d;
+}
+.null-cart{
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    display: flex;
+    background: #ffffff;
+}
+.hidden{
+    display: none;
+}
+.null-cart-img{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.null-cart-img i{
+    font-size: 200px !important;
+    line-height: 300px;
+    color: #a40000;
+}
+.null-cart span{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    color: #990000;
+    margin-top: 120px;
+    font-size: 13px;
+    line-height: 27px;
+}
+.null-cart .null-cart-button{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    width: 80px;
+    font-size: 12px;
+    background: #990000;
+    border:2px solid #be0e0e;
+    border-radius: 7px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.tuijian-products-wrap{
+    background: #ffffff;
+    margin-bottom: 50px;
+}
+.tuijian-products-title{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+}
+.tuijian-products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tuijian-products-list{
+    width: 45%;
+    display: block;
+    margin-bottom: 10px;
+}
+.tuijian-products-list .wrap-products{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.danxuan{
+    display: inline-block;
+    float: left;
+}
+.danxuan-wrap{
+    display: inline-block;
+}
+.danxuan-wrap input {
+    display: none;
+}
+.danxuan-text {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    padding-left: 50px;
+}
+
+.danxuan-text::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 23px;
+}
+
+.danxuan-text::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    left: 16px;
+    top: 28.8px;
+    opacity: 0;
+}
+/* input的状态自带的状态checked就是其中的一种 */
+
+.danxuan-wrap input:checked~span::before {
+    border-color: #0080ff;
+    transition: border-color 0.5s ease-in;
+}
+
+.danxuan-wrap input:checked~span::after {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+.total{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 52px;
+    left: 0;
+    background: #ffffff;
+    z-index: 2;
+}
+.total .danxuan-text{
+    font-size: 13px;
+}
+.total .danxuan-text::before {
+    top: 13px;
+}
+.total .danxuan-text::after{
+    top: 18.8px;
+}
+.total .right{
+    float: right;
+}
+.total .right .total-price{
+    width: 100px;
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    color: #747272;
+}
+.total .right .total-price b{
+    font-size: 13px;
+    display: block;
+    color: #1d1d1d;
+}
+.total .right .total-price b span{
+    color: #d20000;
+    font-weight: bold;
+    font-size: 13px; 
+    line-height: 20px;
+}
+.total .right .go-buy{
+    width: 80px;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+.active{
+    background: #fbb102;
+}
+.gray{
+    background: #aaa6a6;
+}
+.delet-button input{
+    display: none;
+}
+.product-delet{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
